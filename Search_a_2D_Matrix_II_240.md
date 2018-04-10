@@ -1,5 +1,5 @@
-# 240. Search a 2D Matrix II 解题记录#
-##题目描述：##
+# 240. Search a 2D Matrix II 解题记录
+## 题目描述：
 Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:  
 - Integers in each row are sorted in ascending from left to right.  
 - Integers in each column are sorted in ascending from top to bottom.
@@ -17,10 +17,11 @@ Consider the following matrix:
 
 Given `target = 5`, return `true`.  
 Given `target = 20`, return `false`.  
-##解题思路:
+## 解题思路:
 若数`大于`target，那么就往`左`搜索，因为下方的数绝对大于当前数；  
 若数`小于`target，那么就往`下`搜索，因为左方的数绝对小于当前数；  
 若`等于`直接返回。
+## 代码：
 ``` C
 class Solution {
 public:
