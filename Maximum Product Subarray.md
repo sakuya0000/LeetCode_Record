@@ -1,9 +1,9 @@
-#152. Maximum Product Subarray 解题记录#
-##题目描述：##
+# 152. Maximum Product Subarray 解题记录
+## 题目描述：
 Find the contiguous subarray within an array (containing at least one number) which has the largest product.  
 For example, given the array **[2,3,-2,4]**,  
 the contiguous subarray **[2,3]** has the largest product = **6**. 
-##解题思路：##
+## 解题思路：
 **这道题可分为两种情况：**  
 1. 有非0的元素，首先分析当数组中有<0的元素，可分为2种情况；  
 　 1)个数为`偶数`，这种情况只要把元素全乘一遍就会得到最大值；  
