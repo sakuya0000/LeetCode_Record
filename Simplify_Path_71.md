@@ -21,27 +21,27 @@ public:
         int n = path.length();
         for (int i = 0; i < n; i++) {
             if (path[i] == '/') {
-                        //以'/'为触发添加情况
+            //以'/'为触发添加情况
                 if (temp.empty())
-                                //temp为空串
+                //temp为空串
                     continue;
                 if (temp == ".") {
-                                //temp为'.'
+                //temp为'.'
                     temp.clear();
                     continue;
                 }
                 if (temp == "..") {
-                                //temp为".."
+                //temp为".."
                     int next = ret.rfind("/");
                     if (next > 0)
-                                        //防止ret为空串，next为-1的情况
+                    //防止ret为空串，next为-1的情况
                         ret.erase(ret.begin() + next, ret.end());
                     else
                         ret.clear();
                     temp.clear();
                 }
                 else {
-                                //添加
+                //添加
                     ret = ret + '/' + temp;
                     temp.clear();
                 }
@@ -50,7 +50,7 @@ public:
                 temp += path[i];
         }
         if (temp == ".." && ret.length()>1) {
-                //因为以'/'为添加条件，可能会碰到最后一个字符不是'/'的情况，所以最后要再比较一次
+        //因为以'/'为添加条件，可能会碰到最后一个字符不是'/'的情况，所以最后要再比较一次
             ret.erase(ret.begin() + ret.rfind("/"), ret.end());
         }
         if (temp != "." && temp != ".." && !temp.empty())
