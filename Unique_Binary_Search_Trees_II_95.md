@@ -3,12 +3,13 @@
 Given an integer n, generate all structurally unique **BST's** (binary search trees) that store values 1...n.  
 For example,  
 Given n = 3, your program should return all 5 unique BST's shown below.  
->   1         3     3      2      1
->    \       /     /      / \      \
->     3     2     1      1   3      2
->    /     /       \                 \
->   2     1         2                 3
-
+```
+   1         3     3      2      1
+    \       /     /      / \      \
+     3     2     1      1   3      2
+    /     /       \                 \
+   2     1         2                 3
+```
 ## 解题思路：
 由于这道题的要求是返回所有BST的根节点，因此要从二叉树的末尾开始添加节点，先获取左子树的所有可能性，再获取右子树的所有可能性，然后将两者组合起来。
 ## 代码：
