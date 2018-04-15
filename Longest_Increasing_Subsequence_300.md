@@ -1,4 +1,4 @@
-# 300. Longest Increasing Subsequence
+﻿# 300. Longest Increasing Subsequence 解题记录
 ## 题目描述：
 Given an unsorted array of integers, find the length of longest increasing subsequence.  
 For example,  

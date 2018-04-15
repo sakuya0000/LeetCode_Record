@@ -1,4 +1,4 @@
-# 71. Simplify Path
+# 71. Simplify Path 解题记录
 ## 题目描述：
 Given an absolute path for a file (Unix-style), simplify it.  
 > For example,  
