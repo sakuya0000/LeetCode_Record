@@ -2,8 +2,8 @@
 ## 题目描述：
 Given a string containing only digits, restore it by returning all possible valid IP address combinations.  
 For example:  
-Given `**"25525511135"**`,  
-return `["**255.255.11.135**", "**255.255.111.35**"]`. (Order does not matter)  
+Given `"25525511135"`,  
+return `["255.255.11.135", "255.255.111.35"]`. (Order does not matter)  
 ## 解题思路：
 *要解决这道题首先要了解IP地址的组成：*  
 1. 每个地址由4个部分组成，由3个'.'分割;  
