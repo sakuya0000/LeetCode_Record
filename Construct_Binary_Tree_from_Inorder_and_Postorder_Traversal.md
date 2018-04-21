@@ -22,7 +22,7 @@ Return the following binary tree:
 这题的思路和上一题没有多少区别，可以说连题目基本都一模一样，这题的postorder倒着看就相当于上一题的preorder，
 只不过从优先左子树换成了优先右子树。  
 ## 代码：
-```
+``` C
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

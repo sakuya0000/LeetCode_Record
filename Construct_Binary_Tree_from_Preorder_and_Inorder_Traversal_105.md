@@ -15,12 +15,12 @@ Return the following binary tree:
   9  20
     /  \
    15   7
-``` C
+```
 ## 解题思路：
 这题的基本思路是从前序遍历的数组中获取根节点，然后在中序遍历的数组中找到根节点所在的位置，左边即为左子数组，右边为右子数组。  
 用递归来进行遍历，每次递归缩小两个遍历数组的范围。
 ## 代码：
-```
+``` C
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
