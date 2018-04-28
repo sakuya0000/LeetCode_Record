@@ -13,14 +13,14 @@ Return the starting gas station's index if you can travel around the circuit onc
 - Each element in the input arrays is a non-negative integer.  
   
 **Example 1:**  
-```
-Input:
+>>> 
+<strong>Input:</strong>
 gas  = [1,2,3,4,5]
 cost = [3,4,5,1,2]
-
-Output: 3
-
-Explanation:
+	
+<strong>Output:</strong> 3
+	
+<strong>Explanation:</strong>
 Start at station 3 (index 3) and fill up with 4 unit of gas. Your tank = 0 + 4 = 4
 Travel to station 4. Your tank = 4 - 1 + 5 = 8
 Travel to station 0. Your tank = 8 - 2 + 1 = 7
@@ -28,23 +28,24 @@ Travel to station 1. Your tank = 7 - 3 + 2 = 6
 Travel to station 2. Your tank = 6 - 4 + 3 = 5
 Travel to station 3. The cost is 5. Your gas is just enough to travel back to station 3.
 Therefore, return 3 as the starting index.
-```
+
+  
 **Example 2:**  
-```
-Input: 
+>>> 
+<strong>Input: </strong>
 gas  = [2,3,4]
 cost = [3,4,3]
-
-Output: -1
-
-Explanation:
+	
+<strong>Output:</strong> -1
+	
+<strong>Explanation:</strong>
 You can't start at station 0 or 1, as there is not enough gas to travel to the next station.
 Let's start at station 2 and fill up with 4 unit of gas. Your tank = 0 + 4 = 4
 Travel to station 0. Your tank = 4 - 3 + 2 = 3
 Travel to station 1. Your tank = 3 - 3 + 3 = 3
 You cannot travel back to station 2, as it requires 4 unit of gas but you only have 3.
 Therefore, you can't travel around the circuit once no matter where you start.
-```
+
 ## 解题思路：
 首先遍历一遍数组把每次经过加油站gas的得失算出来记录下来，这里的记录并不是把每个站的得失记录下来，而是把`相同得失`的站记录下来。
 也就是把失去gas的区间内的所有站失去的gas相加在一起，得到一个记录，反之亦然。因为题目返回的是gas中的下标，所以要用一个数组来记录
