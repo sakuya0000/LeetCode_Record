@@ -21,7 +21,7 @@ determine if s can be segmented into a space-separated sequence of one or more d
 > <strong>Explanation:</strong> Return true because "applepenapple" can be segmented as "apple pen apple".  
 	             Note that you are allowed to reuse a dictionary word.
 ## 解题思路：
-这题可以用动态规划来解决，如果在**s[j]之前的字符串可被分离**且**s[j]到s[i-1]的字符串可被分离，
+这题可以用动态规划来解决，如果在**s[j]之前的字符串可被分离**且**s[j]到s[i-1]的字符串可被分离**，
 那么s[i]之前的字符串都可被分离，可用一个数组dp来表示对应字符串是否可被分离。
 ## 代码：
 ``` C
