@@ -10,6 +10,7 @@ Output: 45
 ```
 ## 解题思路：
 先算两个矩形面积之和，再减去重合部分。
+## 代码：
 ```
 class Solution {
 public:
