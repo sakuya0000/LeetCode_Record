@@ -3,7 +3,8 @@
 Given a string of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. 
 The valid operators are `+`, `-` and `*`.
 ## 解题思路：
-利用递归将计算分为两边不同的可能性求加、减、乘。利用递归化到最后就是最简单的加、减、乘问题。
+利用递归的方法依据计算符号将计算分为两个计算，求加、减、乘。这样一直递归化到最后就是最简单的加、减、乘问题。
+然后再将下一层两个计算的可能性分别进行求加、减、乘，就得到当前计算层的所有可能性，将其返回上层。
 ## 代码：
 ``` C
 class Solution {
