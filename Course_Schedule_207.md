@@ -22,8 +22,8 @@ Given the total number of courses and a list of prerequisite **pairs**, is it po
 用一个数组visit来记录课程的状态（是否能完成）。然后利用递归查看课程是否能修完。    
 利用递归检索的思路是：先将该课程设为不可修完，即visit[cur]=-1。然后由graph依次遍历该课程的先修课，若都能修完，则将该课程设为能修完，
 即1，返回**true**；若其中有一个不能修完，则直接返回**false**。  
-能修完最底层的条件为该课程没有先修课或是前面已经检索过了能修完**/(visit[cur]=1)**；  
-不能修完最底层的条件为课程之间围成环**/(visit[cur]=-1)**。
+能修完最底层的条件为该课程没有先修课或是前面已经检索过了能修完**(visit[cur]=1)/**；  
+不能修完最底层的条件为课程之间围成环**(visit[cur]=-1)/**。
 ## 代码(DFS)：
 ``` C
 class Solution {
