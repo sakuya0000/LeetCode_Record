@@ -17,7 +17,7 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
              Total amount you can rob = 1 + 3 = 4.
 ```
 ## 解题思路：
-本题的解题思路跟198.House Robber基本一致，递推公式**f(n)=max[f(n-1), f(n-2)+A(n)]**没变，只是房子围成了环。要分成两种情况考虑：  
+本题的解题思路跟198.House Robber基本一致，递推公式 **f(n)=max[f(n-1), f(n-2)+A(n)]** 没变，只是房子围成了环。要分成两种情况考虑：  
   
 1. 考虑第一个房子，那么因为相邻，最后一个房子不考虑。所以只要考虑0到n-1的房子即可。
 2. 不考虑第一个房子，那么考虑最后一个房子。所以考虑1到n的房子。
