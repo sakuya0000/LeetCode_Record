@@ -18,6 +18,7 @@ Explanation: If there are 4 stones in the heap, then you will never win the game
 > 当石子数为5的时候：A取1个，让B面临第四中情况。A必胜。
 > 当石子数为6的时候：A取2个。A必胜
 > ……
+
 可见当石子数为4的倍数的时候B必胜，其他情况A必胜。
 ## 代码：
 ``` C
