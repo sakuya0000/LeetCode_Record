@@ -18,8 +18,8 @@ Result: 1024
 ```
 ## 解题思路：
 又是一道数学题。首先要知道一个公式(a<sup>b</sup>)%c = (a%c)<sup>b</sup>%c，这是解法的核心。  
-然后在b为偶数的情况下：(a<sup>2*b/2</sup>)%c = (a<sup>2</sup>%c)<sup>b/2</sup>%c;  
-奇数的情况则是：(a<sup>2*b/2</sup>*a)%c = [(a<sup>2</sup>%c)<sup>b/2</sup>%c*a]%c。  
+然后在b为偶数的情况下：(a<sup>2\*b/2</sup>)%c = (a<sup>2</sup>%c)<sup>b/2</sup>%c;  
+奇数的情况则是：(a<sup>2\*b/2</sup>\*a)%c = [(a<sup>2</sup>%c)<sup>b/2</sup>%c\*a]%c。  
 然后一直迭代下去就可以得到答案了。
 ## 代码：
 ``` C
