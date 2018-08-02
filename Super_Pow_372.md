@@ -11,7 +11,7 @@ Result: 8
 ```
 **Example2:**
 ```
-a = 2
+a = 2 
 b = [1,0]
 
 Result: 1024
