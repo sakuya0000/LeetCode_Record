@@ -1,7 +1,7 @@
 # 416. Partition Equal Subset Sum 解题记录
 ## 题目描述：
 Given a non-empty array containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.     
-**Example 1: **
+**Example 1: ** 
 ```
 Input: [1, 5, 11, 5]
 
