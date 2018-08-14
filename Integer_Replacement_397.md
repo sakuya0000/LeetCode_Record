@@ -7,7 +7,7 @@ Given a positive integer n and you can do operations as follow:
 
 What is the minimum number of replacements needed for n to become 1?     
 
-**Example 1: **
+**Example 1:**  
 ```
 Input:
 8
@@ -18,7 +18,7 @@ Output:
 Explanation:
 8 -> 4 -> 2 -> 1
 ```    
-**Example 2: **
+**Example 2: **  
 ```
 Input:
 7
