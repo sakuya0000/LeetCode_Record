@@ -1,5 +1,5 @@
-ï»¿# 406. Queue Reconstruction by Height è§£é¢˜è®°å½•
-## é¢˜ç›®æè¿°ï¼š
+# 406. Queue Reconstruction by Height ½âÌâ¼ÇÂ¼
+## ÌâÄ¿ÃèÊö£º
 Suppose you have a random list of people standing in a queue. Each person is described by a pair of integers `(h, k)`, where `h` is the height of the person and `k` is the number of people in front of this person who have a height greater than or equal to `h`. Write an algorithm to reconstruct the queue.    
 
 **Note:**    
@@ -14,9 +14,9 @@ Input:
 Output:
 [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]
 ```
-## è§£é¢˜æ€è·¯ï¼š
-å…ˆå¯¹æ‰€æœ‰äººè¿›è¡Œèº«é«˜æ’åºï¼Œé«˜çš„åœ¨å‰é¢ï¼ŒçŸ®çš„åœ¨åé¢ï¼Œèº«é«˜ç›¸åŒå†æ¯”è¾ƒç¬¬äºŒä¸ªæ•°ï¼Œå°çš„åœ¨å‰é¢ã€‚ç„¶åå†æŠŠæ’åºå¥½çš„æ•°ç»„æŒ‰é¡ºåºæ’å…¥ç¬¬äºŒä¸ªæ•°çš„ä½ç½®ã€‚
-## ä»£ç ï¼š
+## ½âÌâË¼Â·£º
+ÏÈ¶ÔËùÓĞÈË½øĞĞÉí¸ßÅÅĞò£¬¸ßµÄÔÚÇ°Ãæ£¬°«µÄÔÚºóÃæ£¬Éí¸ßÏàÍ¬ÔÙ±È½ÏµÚ¶ş¸öÊı£¬Ğ¡µÄÔÚÇ°Ãæ¡£È»ºóÔÙ°ÑÅÅĞòºÃµÄÊı×é°´Ë³Ğò²åÈëµÚ¶ş¸öÊıµÄÎ»ÖÃ¡£
+## ´úÂë£º
 ``` C
 class Solution {
     static bool cmp(pair<int, int> &a, pair<int, int> &b){
