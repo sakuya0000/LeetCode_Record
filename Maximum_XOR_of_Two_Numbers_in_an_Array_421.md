@@ -6,7 +6,7 @@ Find the maximum result of a<sub>i</sub> XOR a<sub>j</sub>, where 0 ¡Ü *i*, *j* 
 
 Could you do this in O(*n*) runtime?    
 
-**Example: **
+**Example: **  
 
 ```
 Input: [3, 10, 5, 25, 2, 8]
