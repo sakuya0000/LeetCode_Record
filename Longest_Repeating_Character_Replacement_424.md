@@ -17,7 +17,7 @@ Explanation:
 Replace the two 'A's with two 'B's or vice versa.
 ```
 
-**Example 2: **
+**Example 2:**  
 
 ```
 Input:
