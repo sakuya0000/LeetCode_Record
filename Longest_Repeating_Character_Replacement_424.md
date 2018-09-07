@@ -5,8 +5,7 @@ Given a string that consists of only uppercase English letters, you can replace 
 **Note:**  
 Both the string's length and k will not exceed 104.    
 
-**Example 1: **  
-
+**Example 1:**  
 ```
 Input:
 s = "ABAB", k = 2
