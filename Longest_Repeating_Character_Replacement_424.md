@@ -31,7 +31,7 @@ Replace the one 'A' in the middle with 'B' and form "AABBBBA".
 The substring "BBBB" has the longest repeating letters, which is 4.
 ```
 ## 解题思路：
-这题主要利用移动窗口，记录窗口中每个字母的数量，然后再用一个most记录最多的数量。然后从零开始遍历字符串，比较窗口的长度与most+k：若大于，移动窗口左侧；若小于，则移动窗口右侧。
+这题主要利用移动窗口，记录窗口中每个字母的数量，然后再用一个most记录最多的数量。然后从零开始遍历字符串，比较窗口的长度与most+k：若大于，移动窗口左侧；若小于，则将返回结果与窗口大小比较。
 ## 代码：
 ``` C
 class Solution {
