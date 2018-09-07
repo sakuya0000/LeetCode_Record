@@ -6,6 +6,7 @@ Given a string that consists of only uppercase English letters, you can replace 
 Both the string's length and k will not exceed 104.    
 
 **Example 1: **  
+
 ```
 Input:
 s = "ABAB", k = 2
@@ -18,6 +19,7 @@ Replace the two 'A's with two 'B's or vice versa.
 ```
 
 **Example 2: **
+
 ```
 Input:
 s = "AABABBA", k = 1
